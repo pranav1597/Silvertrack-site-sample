@@ -37,13 +37,11 @@ export default function RoutesWithAnimation() {
   
     console.log(location)
     return (
-        <Router>
-          <Routes location={location} key={location.key}>
-          <Route exact path='/' element={< Home routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
-          <Route exact path='/solutions' element={< Solutions routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
-          {/* <Route exact path='/about' element={< About />}></Route>
-          <Route exact path='/contact' element={< Contact />}></Route> */}
-                </Routes>
-        </Router>
+        <Routes location={location} key={location.key}>
+        <Route exact path='/' element={< Home routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
+        <Route exact path='/solutions' element={< Solutions routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
+        {/* <Route exact path='/about' element={< About />}></Route>
+        <Route exact path='/contact' element={< Contact />}></Route> */}
+      </Routes>
     );
   }
