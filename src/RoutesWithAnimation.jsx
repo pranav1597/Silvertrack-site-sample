@@ -38,8 +38,8 @@ export default function RoutesWithAnimation() {
     console.log(location)
     return (
         <Routes location={location} key={location.key}>
-        <Route exact path='/Silvertrack-site-sample/#' element={< Home routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
-        <Route exact path='/Silvertrack-site-sample/#/solutions' element={< Solutions routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
+        <Route exact path='/' element={< Home routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
+        <Route exact path='/solutions' element={< Solutions routeVariants={routeVariants} childVariants={childVariants}/>}></Route>
         {/* <Route exact path='/about' element={< About />}></Route>
         <Route exact path='/contact' element={< Contact />}></Route> */}
       </Routes>
