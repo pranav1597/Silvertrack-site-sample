@@ -7,6 +7,7 @@ import Silver from './Components/SilvertrackLOGO-1.png'
 import {AnimatePresence } from "framer-motion";
 import LocationProvider from './LocationProvider';
 import RoutesWithAnimation from './RoutesWithAnimation';
+import Home from './Components/Home';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
       <AnimatePresence>
         <div>
           <Navbar logo={Silver}/>
+          <Home />
           <div className=''>
             <LocationProvider>
             <RoutesWithAnimation />
