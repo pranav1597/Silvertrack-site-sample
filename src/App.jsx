@@ -18,7 +18,7 @@ function App() {
       <AnimatePresence>
         <div>
           <Navbar logo={Silver}/>
-          <Home />
+          
           <div className=''>
             <LocationProvider>
             <RoutesWithAnimation />
