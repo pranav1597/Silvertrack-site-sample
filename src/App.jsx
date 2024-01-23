@@ -2,7 +2,7 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 import Silver from './Components/SilvertrackLOGO-1.png'
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 
 import {AnimatePresence } from "framer-motion";
 import LocationProvider from './LocationProvider';
