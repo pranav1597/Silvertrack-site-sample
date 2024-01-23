@@ -1,8 +1,8 @@
-
+import React from 'react';
 import './App.css'
 import Navbar from './Components/Navbar'
 import Silver from './Components/SilvertrackLOGO-1.png'
-import {HashRouter} from "react-router-dom";
+
 
 import {AnimatePresence } from "framer-motion";
 import LocationProvider from './LocationProvider';
@@ -12,7 +12,8 @@ function App() {
   
 
   return (
-    <HashRouter>
+    
+      <>
       <AnimatePresence>
         <div>
           <Navbar logo={Silver}/>
@@ -24,7 +25,9 @@ function App() {
         
         </div>
       </AnimatePresence>
-    </HashRouter>
+      </>
+   
+   
   )
 }
 
