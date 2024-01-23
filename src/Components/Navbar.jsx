@@ -12,8 +12,8 @@ export default function Navbar(props){
 
              </div>
              <div className="container flex justify-around items-center  text-green-400"> 
-                <Link to ='/' className='home-link text-lg font-bold text-blue-400'>Home</Link>
-                <Link to ='/solutions' className='text-lg font-bold text-blue-400'>Solutions</Link>
+                <Link to ='/Silvertrack-site-sample' className='home-link text-lg font-bold text-blue-400'>Home</Link>
+                <Link to ='/Silvertrack-site-sample/solutions' className='text-lg font-bold text-blue-400'>Solutions</Link>
                 <Link to ='/about' className='text-lg font-bold text-blue-400'>About</Link>
                 <Link to ='/contact' className='text-lg font-bold text-blue-400'>Contact Us</Link>
                
