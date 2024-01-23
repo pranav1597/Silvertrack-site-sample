@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Home from './Components/Home';
 import Solutions from './Components/Solutions';
 
